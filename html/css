@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ملفي الشخصي</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>مرحبا، أنا <span class="name">جواد منهاجي</span></h1>
+    <p class="tagline">مصمم ومتعلم برمجة</p>
+  </header>
+
+  <section class="about">
+    <h2>عنّي</h2>
+    <p>أنا مهتم بتعلم التصميم والبرمجة، وأحب تطوير أفكار جديدة ومفيدة.</p>
+  </section>
+
+  <section class="skills">
+    <h2>مهاراتي</h2>
+    <ul>
+      <li>تصميم (Canva / Photoshop)</li>
+      <li>برمجة (HTML / CSS / JavaScript)</li>
+      <li>GitHub و Git</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>تواصل معي</h2>
+    <a href="mailto:yourmail@gmail.com" class="btn">📧 راسلني</a>
+  </section>
+
+  <footer>
+    <p>© 2025 - Portfolio by Jawad</p>
+  </footer>
+</body>
+</html>
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  padding: 50px 20px;
+}
+
+.name {
+  color: #38bdf8;
+}
+
+.about, .skills, .contact {
+  padding: 30px 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+h2 {
+  color: #38bdf8;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: #0f172a;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0ea5e9;
+}
+
+footer {
+  background: #1e293b;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 14px;
+}
